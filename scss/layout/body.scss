@@ -1,0 +1,16 @@
+// Body
+
+@import '../general/variables.scss';
+@import '../general/typography.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    color: $main-text-color;
+    background-color: $main-bg-color;
+    background-attachment: fixed;
+}
+
+
+
