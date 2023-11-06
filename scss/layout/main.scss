@@ -50,7 +50,7 @@ main {
                         background-image: url("../images/home.jpg");
                     }
                     &.img-3 {
-                        background-image: url("../images/buscador.jpg");
+                        background-image: url("../../images/buscador.jpg");
                     }
                     .transparent {
                         background-color: rgba(50, 9, 78, 0.617);
@@ -94,30 +94,30 @@ main {
         }
     }
     // TODO: Llevar al index.scss
-    .section {
-        background-color: $secondary-bg-color;
-        display: flex;
-        justify-content: space-between;
-        padding: 40px;
-        width: 100%;
-        margin: 15px auto;
-        border-radius: 20px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        img {
-            width: 200px;
-            border-radius: 10px;
-            border: dashed 2px $main-button-color;
-        }
-        h3 {
-            margin: 10px 0;
-            color: $main-text-color;
-            text-align: center;
-        }
-        p {
-            color: $main-text-color;
-            margin-right: 15px;
-            margin: 10px;
-            text-align: justify;
-        }
-    }
+    // .section {
+    //     background-color: $secondary-bg-color;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding: 40px;
+    //     width: 100%;
+    //     margin: 15px auto;
+    //     border-radius: 20px;
+    //     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    //     img {
+    //         width: 200px;
+    //         border-radius: 10px;
+    //         border: dashed 2px $main-button-color;
+    //     }
+    //     h3 {
+    //         margin: 10px 0;
+    //         color: $main-text-color;
+    //         text-align: center;
+    //     }
+    //     p {
+    //         color: $main-text-color;
+    //         margin-right: 15px;
+    //         margin: 10px;
+    //         text-align: justify;
+    //     }
+    // }
 }
