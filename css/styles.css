@@ -182,50 +182,6 @@ main .container-flex .row .div-flex .card {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
 }
-main .container-flex .row .div-flex .card.index-card {
-  width: 15rem;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}
-main .container-flex .row .div-flex .card.img-1 {
-  background-image: url("../images/Ingreso.jpg");
-}
-main .container-flex .row .div-flex .card.img-2 {
-  background-image: url("../images/home.jpg");
-}
-main .container-flex .row .div-flex .card.img-3 {
-  background-image: url("../../images/buscador.jpg");
-}
-main .container-flex .row .div-flex .card .transparent {
-  background-color: rgba(50, 9, 78, 0.617);
-  transition: all 400ms ease;
-  display: grid;
-  align-items: center;
-}
-main .container-flex .row .div-flex .card .btn {
-  border-color: #a675a1;
-  background-color: #b80ea7;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  display: none;
-}
-main .container-flex .row .div-flex .card .btn:hover {
-  background-color: #a675a1;
-  color: #ffffff;
-}
-main .container-flex .row .div-flex .card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-}
-main .container-flex .row .div-flex .card:hover .transparent {
-  margin-top: 100%;
-}
-main .container-flex .row .div-flex .card:hover .transparent .btn {
-  display: block;
-}
 main .container-flex .row .div-flex .card .card-title {
   text-align: center;
   padding: 0 30px;
@@ -271,7 +227,7 @@ footer .mensaje-footer {
   margin: 10px 0px;
 }
 
-.card.index-card {
+main .container-flex .row .div-flex .card.index-card {
   width: 15rem;
   height: 500px;
   background-position: center;
@@ -279,22 +235,22 @@ footer .mensaje-footer {
   background-size: contain;
   position: relative;
 }
-.card.img-1 {
-  background-image: url("../../images/Ingreso.jpg");
+main .container-flex .row .div-flex .card.img-1 {
+  background-image: url("../images/Ingreso.jpg");
 }
-.card.img-2 {
-  background-image: url("../../images/home.jpg");
+main .container-flex .row .div-flex .card.img-2 {
+  background-image: url("../images/home.jpg");
 }
-.card.img-3 {
-  background-image: url("../../images/buscador.jpg");
+main .container-flex .row .div-flex .card.img-3 {
+  background-image: url("../images/buscador.jpg");
 }
-.card .transparent {
+main .container-flex .row .div-flex .card .transparent {
   background-color: rgba(50, 9, 78, 0.617);
   transition: all 400ms ease;
   display: grid;
   align-items: center;
 }
-.card .btn {
+main .container-flex .row .div-flex .card .btn {
   border-color: #a675a1;
   background-color: #b80ea7;
   color: #ffffff;
@@ -302,21 +258,20 @@ footer .mensaje-footer {
   justify-content: center;
   display: none;
 }
-.card .btn:hover {
+main .container-flex .row .div-flex .card .btn:hover {
   background-color: #a675a1;
   color: #ffffff;
 }
-.card:hover {
+main .container-flex .row .div-flex .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
-.card:hover .transparent {
+main .container-flex .row .div-flex .card:hover .transparent {
   margin-top: 100%;
 }
-.card:hover .transparent .btn {
+main .container-flex .row .div-flex .card:hover .transparent .btn {
   display: block;
 }
-
-.section {
+main .container-flex .row .div-flex .section {
   background-color: #2c365e;
   display: flex;
   justify-content: space-between;
@@ -326,17 +281,17 @@ footer .mensaje-footer {
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
-.section img {
+main .container-flex .row .div-flex .section img {
   width: 200px;
   border-radius: 10px;
   border: dashed 2px #a675a1;
 }
-.section h3 {
+main .container-flex .row .div-flex .section h3 {
   margin: 10px 0;
   color: #ffffff;
   text-align: center;
 }
-.section p {
+main .container-flex .row .div-flex .section p {
   color: #ffffff;
   margin-right: 15px;
   margin: 10px;
