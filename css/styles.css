@@ -271,7 +271,7 @@ main .container-flex .row .div-flex .card:hover .transparent {
 main .container-flex .row .div-flex .card:hover .transparent .btn {
   display: block;
 }
-main .container-flex .row .div-flex .section {
+main .section {
   background-color: #2c365e;
   display: flex;
   justify-content: space-between;
@@ -281,17 +281,17 @@ main .container-flex .row .div-flex .section {
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
-main .container-flex .row .div-flex .section img {
+main .section img {
   width: 200px;
   border-radius: 10px;
   border: dashed 2px #a675a1;
 }
-main .container-flex .row .div-flex .section h3 {
+main .section h3 {
   margin: 10px 0;
   color: #ffffff;
   text-align: center;
 }
-main .container-flex .row .div-flex .section p {
+main .section p {
   color: #ffffff;
   margin-right: 15px;
   margin: 10px;
