@@ -1,7 +1,15 @@
 main {
     .container-flex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .row {
             .div-flex {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                margin-right: 0;
                 .card {
                     &.index-card {
                         width: 15rem;
@@ -55,15 +63,15 @@ main {
         background-color: $secondary-bg-color;
         display: flex;
         justify-content: space-between;
-        padding: 40px;
         width: 100%;
         margin: 15px auto;
         border-radius: 20px;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-        img {
+        .index-img {
             width: 200px;
             border-radius: 10px;
             border: dashed 2px $main-button-color;
+            margin: 40px;
         }
         h3 {
             margin: 10px 0;
