@@ -15,6 +15,9 @@ footer {
             font-size: small;
             font-weight: lighter;
             text-align: center;
+            span {
+                color: $secondary-text-color;
+            }
         }
     }
     a {
