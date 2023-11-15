@@ -7,3 +7,68 @@ $main-text-color: #ffffff;
 $secondary-text-color: #ffffffc9;
 $tertiary-text-color: #b80ea7;
 $black-text-color: #000000;
+
+.button {
+  border-color: $main-button-color;
+  background-color: $secondary-button-color;
+  color: $main-text-color;
+  display: flex;
+  justify-content: center;
+  &:hover {
+    background-color: $main-button-color;
+    color: $main-text-color;
+  }
+}
+
+@mixin text-with-image-box(
+  $text-bg-color,
+  $image-bg-color,
+  $img-width,
+  $resize-img
+) {
+  .h-card {
+    background-color: $text-bg-color;
+    margin: 48px auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    .content {
+      display: flex;
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+      .text {
+        width: 70%;
+        padding: 48px;
+        @media (max-width: 600px) {
+          width: 100%;
+          padding: 20px;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+      .img {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        background-color: $image-bg-color;
+        img {
+          width: $img-width;
+          border-style: none;
+          aspect-ratio: auto;
+        }
+        @media (max-width: 600px) {
+          width: 100%;
+          img {
+            @if ($resize-img) {
+              width: ($img-width / 100) * 70;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-.img-disenio {
-    width: 400px;
-    border-radius: 0 20px 20px 0;
+.sobre-grandes-soluciones {
+    @include text-with-image-box($secondary-bg-color, white, 90%, true);
+    // TODO: resto de estilos de la sección "datos de investigación"
 }
