@@ -20,14 +20,9 @@ $black-text-color: #000000;
   }
 }
 
-@mixin text-with-image-box(
-  $text-bg-color,
-  $image-bg-color,
-  $img-width,
-  $resize-img
-) {
+@mixin text-with-image-box($text-bg-color, $image-bg-color, $img-width, $resize-img) {
   .h-card {
-    background-color: $text-bg-color;
+    background: $text-bg-color;
     margin: 48px auto;
     display: block;
     border-radius: 10px;
@@ -54,7 +49,9 @@ $black-text-color: #000000;
         display: flex;
         justify-content: center;
         width: 30%;
-        background-color: $image-bg-color;
+        @if ($image-bg-color) {
+          background: $image-bg-color;
+        }
         img {
           width: $img-width;
           border-style: none;
@@ -64,7 +61,7 @@ $black-text-color: #000000;
           width: 100%;
           img {
             @if ($resize-img) {
-              width: ($img-width / 100) * 70;
+              width: calc($img-width / 100) * 70;
             }
           }
         }
