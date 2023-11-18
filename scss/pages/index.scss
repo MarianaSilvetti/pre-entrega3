@@ -43,13 +43,13 @@
             position: relative;
           }
           &.img-1 {
-            background-image: url("../images/Ingreso.jpg");
+            background-image: url('../images/Ingreso.jpg');
           }
           &.img-2 {
-            background-image: url("../images/home.jpg");
+            background-image: url('../images/home.jpg');
           }
           &.img-3 {
-            background-image: url("../images/buscador.jpg");
+            background-image: url('../images/buscador.jpg');
           }
           .transparent {
             background-color: rgba(50, 9, 78, 0.617);
@@ -74,7 +74,12 @@
       }
     }
   }
-  @include text-with-image-box($secondary-bg-color, $secondary-bg-color, 200px, false);
+  @include text-with-image-box(
+    $secondary-bg-color,
+    $secondary-bg-color,
+    200px,
+    false
+  );
   .h-card {
     h3 {
       margin: 10px 0;
