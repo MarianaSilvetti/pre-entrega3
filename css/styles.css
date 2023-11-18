@@ -893,7 +893,8 @@ footer .mensaje-footer {
   text-align: center;
 }
 .about-wrapper .about-right h3 {
-  font-size: 7rem;
+  font-size: 5rem;
+  margin-bottom: 25px;
   text-transform: uppercase;
 }
 .about-wrapper .about-right h3 span {
