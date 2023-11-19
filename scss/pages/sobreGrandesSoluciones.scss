@@ -1,31 +1,38 @@
 $bg-gradient: linear-gradient(180deg, $secondary-bg-color, $main-bg-color);
 .sobre-grandes-soluciones {
-    @include text-with-image-box($secondary-bg-color, white, 90%, true);
-    .text {
-        @media (max-width: 600px) {
-            h2 {
-                font-size: 24px;
-                text-align: center;
-            }
-        }
+  @include text-with-image-box($secondary-bg-color, white, 90%, true);
+  .text {
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 24px;
+        text-align: center;
+      }
     }
+  }
 }
 .investigacion {
-    @include text-with-image-box($bg-gradient, $bg-gradient, 70%, false);
-    .h-card {
-        border: 0;
-        .content {
-            @media (max-width: 600px) {
-                .text {
-                    order: 1;
-                }
-                .img {
-                    order: 2;
-                }
-            }
-            .text {
-                border-radius: 10px;
-            }
+  @include text-with-image-box($bg-gradient, $bg-gradient, 70%, false);
+  .h-card {
+    border: 0;
+    .content {
+      @media (max-width: 600px) {
+        .text {
+          order: 1;
         }
+        .img {
+          order: 2;
+        }
+      }
+      .text {
+        border-radius: 10px;
+        ul {
+          list-style: circle;
+          li{
+            margin-bottom: 2rem;
+            text-align: justify;
+          }
+        }
+      }
     }
+  }
 }
