@@ -364,19 +364,26 @@ footer .mensaje-footer {
     width: 100%;
   }
 }
-.index .h-card h3 {
-  margin: 10px 0;
+.index .h-card img {
+  width: auto;
+}
+.index .h-card .text h3 {
+  margin: 10px 0 20px;
   color: #ffffff;
   text-align: center;
 }
-.index .h-card p {
+.index .h-card .text p {
   color: #ffffff;
   margin-right: 15px;
   margin: 10px;
   text-align: justify;
 }
-.index .h-card img {
-  width: auto;
+.index .h-card .text ul {
+  list-style: circle;
+}
+.index .h-card .text ul li {
+  margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .titulo-otros-proyectos {

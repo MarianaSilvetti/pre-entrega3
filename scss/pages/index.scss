@@ -81,19 +81,28 @@
     false
   );
   .h-card {
-    h3 {
-      margin: 10px 0;
-      color: $main-text-color;
-      text-align: center;
-    }
-    p {
-      color: $main-text-color;
-      margin-right: 15px;
-      margin: 10px;
-      text-align: justify;
-    }
     img {
       width: auto;
+    }
+    .text {
+      h3 {
+        margin: 10px 0 20px;
+        color: $main-text-color;
+        text-align: center;
+      }
+      p {
+        color: $main-text-color;
+        margin-right: 15px;
+        margin: 10px;
+        text-align: justify;
+      }
+      ul {
+        list-style: circle;
+        li {
+          margin-bottom: 2rem;
+          text-align: justify;
+        }
+      }
     }
   }
 }
