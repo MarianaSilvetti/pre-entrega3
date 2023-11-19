@@ -567,12 +567,15 @@ footer .mensaje-footer {
 }
 .investigacion .h-card .content .text {
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .investigacion .h-card .content .text ul {
   list-style: circle;
 }
 .investigacion .h-card .content .text ul li {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   text-align: justify;
 }
 

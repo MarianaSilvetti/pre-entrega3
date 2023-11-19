@@ -25,10 +25,13 @@ $bg-gradient: linear-gradient(180deg, $secondary-bg-color, $main-bg-color);
       }
       .text {
         border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         ul {
           list-style: circle;
           li{
-            margin-bottom: 2rem;
+            margin-bottom: 5rem;
             text-align: justify;
           }
         }
