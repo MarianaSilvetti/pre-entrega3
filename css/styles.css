@@ -762,11 +762,9 @@ footer .mensaje-footer {
   transition: 0.5s;
   color: #b80ea7;
 }
-.about-wrapper {
-  height: 100vh;
-}
 @media screen and (min-width: 992px) {
   .about-wrapper {
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -782,6 +780,7 @@ footer .mensaje-footer {
 @media screen and (min-width: 992px) {
   .about-wrapper .about-left {
     position: relative;
+    height: auto;
   }
 }
 .about-wrapper .about-left .about-left-content {
@@ -793,6 +792,11 @@ footer .mensaje-footer {
   background: #a675a1;
   padding: 4rem 4rem 2.5rem 5rem;
   text-align: center;
+}
+@media (max-width: 420px) {
+  .about-wrapper .about-left .about-left-content > div {
+    padding: 1rem 0.5rem 2.5rem;
+  }
 }
 .about-wrapper .about-left .about-left-content h1 {
   font-size: 2rem;
@@ -892,6 +896,12 @@ footer .mensaje-footer {
   padding: 0 5rem;
   text-align: center;
 }
+@media (max-width: 420px) {
+  .about-wrapper .about-right {
+    padding: 1rem 0.5rem;
+    height: auto;
+  }
+}
 .about-wrapper .about-right h3 {
   font-size: 5rem;
   margin-bottom: 25px;
@@ -899,6 +909,11 @@ footer .mensaje-footer {
 }
 .about-wrapper .about-right h3 span {
   color: #ffffff;
+}
+@media (max-width: 420px) {
+  .about-wrapper .about-right h3 {
+    font-size: 3rem;
+  }
 }
 .about-wrapper .about-right h4 {
   font-weight: 600;
