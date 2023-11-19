@@ -334,6 +334,9 @@ footer .mensaje-footer {
 .index .h-card .content .text {
   width: 70%;
   padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .index .h-card .content .text {
@@ -401,6 +404,9 @@ footer .mensaje-footer {
 .otros-proyectos .h-card .content .text {
   width: 70%;
   padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .otros-proyectos .h-card .content .text {
@@ -471,6 +477,9 @@ footer .mensaje-footer {
 .sobre-grandes-soluciones .h-card .content .text {
   width: 70%;
   padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .sobre-grandes-soluciones .h-card .content .text {
@@ -527,6 +536,9 @@ footer .mensaje-footer {
 .investigacion .h-card .content .text {
   width: 70%;
   padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .investigacion .h-card .content .text {
@@ -567,9 +579,6 @@ footer .mensaje-footer {
 }
 .investigacion .h-card .content .text {
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .investigacion .h-card .content .text ul {
   list-style: circle;

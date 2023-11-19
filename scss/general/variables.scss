@@ -2,7 +2,7 @@ $main-bg-color: #2b193d;
 $secondary-bg-color: #2c365e;
 $tertiary-bg-color: #272f4f;
 $other-bg-color: #a675a1;
-$another-bg-color:#553d6d;
+$another-bg-color: #553d6d;
 $main-button-color: #a675a1;
 $secondary-button-color: #b80ea7;
 $main-text-color: #ffffff;
@@ -22,7 +22,12 @@ $black-text-color: #000000;
   }
 }
 
-@mixin text-with-image-box($text-bg-color, $image-bg-color, $img-width, $resize-img) {
+@mixin text-with-image-box(
+  $text-bg-color,
+  $image-bg-color,
+  $img-width,
+  $resize-img
+) {
   .h-card {
     background: $text-bg-color;
     margin: 48px auto;
@@ -38,6 +43,9 @@ $black-text-color: #000000;
       .text {
         width: 70%;
         padding: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         @media (max-width: 600px) {
           width: 100%;
           padding: 20px;
